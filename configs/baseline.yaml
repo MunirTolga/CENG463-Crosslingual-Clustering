@@ -1,0 +1,28 @@
+random_seed: 42
+
+dataset_name: facebook/xnli
+split: validation
+languages:
+  - en
+  - tr
+max_samples_per_language: 500
+
+text_column: text
+label_column: label
+
+clustering:
+  kmeans:
+    n_clusters: 3
+    n_init: 10
+    max_iter: 300
+    random_state: 42
+  dbscan:
+    eps: 0.5
+    min_samples: 5
+    metric: cosine
+
+output_dirs:
+  embeddings: outputs/embeddings
+  metrics: outputs/metrics
+  figures: outputs/figures
+  reports: outputs/reports

@@ -1,0 +1,27 @@
+{
+  "silhouette_score": -0.10126636922359467,
+  "homogeneity_score": 0.0009996344994352255,
+  "completeness_score": 0.0010640938245027758,
+  "v_measure_score": 0.0010308574876553402,
+  "adjusted_rand_score": -0.0007138492765891757,
+  "normalized_mutual_info_score": 0.0010308574876553402,
+  "number_of_clusters": 39,
+  "noise_ratio": 0.001,
+  "number_of_noise_points": 1,
+  "dbscan_eps": 0.4,
+  "dbscan_min_samples": 2,
+  "dbscan_metric": "cosine",
+  "normalize_embeddings": true,
+  "reducer": "pca",
+  "pca_components": 50,
+  "pca_components_used": 50,
+  "original_embedding_shape": [
+    1000,
+    768
+  ],
+  "processed_embedding_shape": [
+    1000,
+    50
+  ],
+  "valid_clustering": true
+}

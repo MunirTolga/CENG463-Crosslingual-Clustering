@@ -1,0 +1,11 @@
+{
+  "silhouette_score": null,
+  "homogeneity_score": 0.0,
+  "completeness_score": 1.0,
+  "v_measure_score": 0.0,
+  "adjusted_rand_score": 0.0,
+  "normalized_mutual_info_score": 0.0,
+  "number_of_clusters": 0,
+  "noise_ratio": 1.0,
+  "number_of_noise_points": 150
+}
